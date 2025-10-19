@@ -1,1 +1,23 @@
-prueba
+a la hora de querer clonar mi repositorio para subir los archivos siempre me dio este error:
+
+
+Cloning into 'F:\111111111111\GarciaBenitez_api'...
+remote: Enumerating objects: 9288, done.        
+remote: Counting objects: 100% (9288/9288), done.        
+remote: Compressing objects: 100% (6453/6453), done.        
+remote: Total 9288 (delta 2627), reused 9281 (delta 2626), pack-reused 0 (from 0)        
+Receiving objects: 100% (9288/9288), 23.57 MiB | 5.28 MiB/s, done.
+Resolving deltas: 100% (2627/2627), done.
+Updating files: 100% (8326/8326), done.
+      0 [main] sh 156 dofork: child -1 - forked process 15848 died unexpectedly, retry 0, exit code 0xC0000142, errno 11
+C:\Users\carlo\AppData\Local\GitHubDesktop\app-3.5.3\resources\app\git\mingw64\libexec\git-core\git-submodule: fork: retry: Resource temporarily unavailable
+1064548 [main] sh 156 dofork: child -1 - forked process 10884 died unexpectedly, retry 0, exit code 0xC0000142, errno 11
+C:\Users\carlo\AppData\Local\GitHubDesktop\app-3.5.3\resources\app\git\mingw64\libexec\git-core\git-submodule: fork: retry: Resource temporarily unavailable
+3139448 [main] sh 156 dofork: child -1 - forked process 16424 died unexpectedly, retry 0, exit code 0xC0000142, errno 11
+C:\Users\carlo\AppData\Local\GitHubDesktop\app-3.5.3\resources\app\git\mingw64\libexec\git-core\git-submodule: fork: retry: Resource temporarily unavailable
+7217091 [main] sh 156 dofork: child -1 - forked process 16660 died unexpectedly, retry 0, exit code 0xC0000142, errno 11
+C:\Users\carlo\AppData\Local\GitHubDesktop\app-3.5.3\resources\app\git\mingw64\libexec\git-core\git-submodule: fork: retry: Resource temporarily unavailable
+15288597 [main] sh 156 dofork: child -1 - forked process 9432 died unexpectedly, retry 0, exit code 0xC0000142, errno 11
+C:\Users\carlo\AppData\Local\GitHubDesktop\app-3.5.3\resources\app\git\mingw64\libexec\git-core\git-submodule: fork: Resource temporarily unavailable
+
+Would you like to retry cloning GarciaBenitez_api?
